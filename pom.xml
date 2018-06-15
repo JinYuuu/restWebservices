@@ -34,23 +34,53 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
+		<!-- basic security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
+		
+		<!-- actuator provides a lot of monitoring facilities around your services-->
+		<!-- localhost:8080/actuator -->
+		<!-- http://localhost:8080 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		
+		<!-- HAL : Hypertext Application Language 
+			>> to specifiy how to hyperlink between resources in your API -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-rest-hal-browser</artifactId>
+		</dependency>
+		
+		
+		<!-- Spring HATEOAS provides some APIs to ease creating REST representations 
+		that follow the HATEOAS principle when working with Spring and especially Spring MVC. -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/com.fasterxml/jackson-xml-databind -->
+		<!-- json -->
 		<dependency>
 		    <groupId>com.fasterxml.jackson.dataformat</groupId>
 		    <artifactId>jackson-dataformat-xml</artifactId>
 		</dependency>
 		
+		<!-- Swagger 2 for a Spring REST web service 
+		we use the Springfox implementation of the Swagger 2 specification.-->
+		<!-- localhost:8080/v2/api-docs -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
 			<version>2.4.0</version>
 		</dependency>
 		
+		<!-- localhost:8080/swagger-ui.html -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
