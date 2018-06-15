@@ -34,12 +34,13 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
-		<!-- basic security -->
+		<!-- basic security
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-		
+		 -->
 		
 		<!-- actuator provides a lot of monitoring facilities around your services-->
 		<!-- localhost:8080/actuator -->
